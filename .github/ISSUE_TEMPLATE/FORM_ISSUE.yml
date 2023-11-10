@@ -48,8 +48,8 @@ body:
     attributes:
       label: Is the issue reproductible?
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
       default: 0
     validations:
       required: true

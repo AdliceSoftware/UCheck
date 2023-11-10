@@ -4,29 +4,30 @@ labels:
   - bug
 body:
   - type: markdown
-    label: Title
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
         We will ask your first to check a few things :
   - type: checkboxes
     id: checks
-    label: Preliminary Checks
-    description: Before submitting this issue, please make sure tehe following
-      stataments are TRUE
-    options:
-      - label: I use a modern operating system (Windows 7 with SP1 or newer)
-        required: true
-      - label: I use the latest version of UCheck available (stable or beta version)
-        required: true
+    attributes:
+      label: Preliminary Checks
+      description: Before submitting this issue, please make sure tehe following
+        stataments are TRUE
+      options:
+        - label: I use a modern operating system (Windows 7 with SP1 or newer)
+          required: true
+        - label: I use the latest version of UCheck available (stable or beta version)
+          required: true
   - type: checkboxes
     id: beta
-    label: Beta Version
-    description: If you are reporting an issue with latest BETA version, please
-      check the following checkbox
-    options:
-      - label: I am reporting an issue for UCheck BETA
-        required: false
+    attributes:
+      label: Beta Version
+      description: If you are reporting an issue with latest BETA version, please
+        check the following checkbox
+      options:
+        - label: I am reporting an issue for UCheck BETA
+          required: false
   - type: textarea
     id: what-happened
     attributes:
@@ -36,10 +37,10 @@ body:
       required: true
   - type: textarea
     id: ucheck-report
-    attributes: null
-    label: ucheck-report
-    description: Please copy and paste any relevant log output. This will be
-      automatically formatted into code, so no need for backticks.
+    attributes:
+      label: ucheck-report
+      description: Please copy and paste any relevant log output. This will be
+        automatically formatted into code, so no need for backticks.
     validations:
       required: true
   - type: dropdown
@@ -50,5 +51,5 @@ body:
         - Yes
         - No
       default: 0
-      validations:
-        required: true
+    validations:
+      required: true

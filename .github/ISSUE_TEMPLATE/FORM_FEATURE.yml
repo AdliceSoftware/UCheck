@@ -19,6 +19,8 @@ body:
           required: true
         - label: I checked that the feature I'm requesting is not available in UCheck Beta
           required: true
+        - label: I checked that the feature I'm requesting is was not already requested
+          required: true
   - type: textarea
     id: what-happened
     attributes:

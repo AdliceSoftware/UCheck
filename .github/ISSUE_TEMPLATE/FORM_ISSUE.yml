@@ -60,6 +60,6 @@ body:
       description: Vote for your features
       options:
         - label: |
-          Bugs and new features will be treated by priority and popularity.
-          Make sure you vote with a :thumbsup: !
+            Bugs and new features will be treated by priority and popularity.
+            Make sure you vote with a :thumbsup: !
           required: false

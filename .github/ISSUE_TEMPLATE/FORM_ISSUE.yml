@@ -12,7 +12,7 @@ body:
     id: checks
     attributes:
       label: Preliminary Checks
-      description: Before submitting this issue, please make sure tehe following
+      description: Before submitting this issue, please make sure the following
         stataments are TRUE
       options:
         - label: I use a modern operating system (Windows 7 with SP1 or newer)

@@ -42,7 +42,7 @@ body:
       description: Please copy and paste any relevant log output. This will be
         automatically formatted into code, so no need for backticks.
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: reproductible
     attributes:

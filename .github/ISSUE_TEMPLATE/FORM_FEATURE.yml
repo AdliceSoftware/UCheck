@@ -17,13 +17,13 @@ body:
       options:
         - label: I use a modern operating system (Windows 7 with SP1 or newer)
           required: true
-        - label: I checked that the feature I'm requestiing is not available in UCheck Beta
+        - label: I checked that the feature I'm requesting is not available in UCheck Beta
           required: true
   - type: textarea
     id: what-happened
     attributes:
       label: Which feature do you want to be added ?
-      description: Tell use about the feature in detail
+      description: Tell use about the feature in detail and why we should prioritize it.
     validations:
       required: true
   - type: textarea

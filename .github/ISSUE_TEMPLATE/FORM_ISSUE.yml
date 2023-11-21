@@ -19,6 +19,8 @@ body:
           required: true
         - label: I use the latest version of UCheck available (stable or beta version)
           required: true
+        - label: I checked that the issue I'm reporting was not already reported
+          required: true
   - type: checkboxes
     id: beta
     attributes:

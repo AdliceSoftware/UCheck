@@ -57,7 +57,9 @@ body:
     id: vote
     attributes:
       label: Vote for your features
-      description: Bugs and new features will be treated by priority and popularity.          
+      description: |
+        Bugs and new features will be treated by priority and popularity.
+        Make sure you vote with a :thumbsup: !
       options:
         - label: Leave this checkbox as is, it's not useful.
           required: false

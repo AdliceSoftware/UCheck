@@ -1,0 +1,46 @@
+name: Feature Request
+description: Suggest an idea for this project
+labels:
+  - feature request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request !
+        We will ask your first to check a few things :
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Preliminary Checks
+      description: Before submitting this issue, please make sure the following
+        stataments are TRUE
+      options:
+        - label: I use a modern operating system (Windows 7 with SP1 or newer)
+          required: true
+        - label: I checked that the feature I'm requestiing is not available in UCheck Beta
+          required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Which feature do you want to be added ?
+      description: Tell use about the feature in detail
+    validations:
+      required: true
+  - type: textarea
+    id: ucheck-report
+    attributes:
+      label: ucheck-report
+      description: Please copy and paste any relevant log output. This will be
+        automatically formatted into code, so no need for backticks.
+    validations:
+      required: false
+  - type: checkboxes
+    id: vote
+    attributes:
+      label: Don't forget to vote !
+      description: Vote for your features
+      options:
+        - label: |
+            Bugs and new features will be treated by priority and popularity.
+            Make sure **you vote below** with a :thumbsup: !
+          required: false

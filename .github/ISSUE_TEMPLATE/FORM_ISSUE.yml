@@ -56,10 +56,6 @@ body:
   - type: checkboxes
     id: vote
     attributes:
-      label: Vote for your features
-      description: |
+      label: |
         Bugs and new features will be treated by priority and popularity.
         Make sure you vote with a :thumbsup: !
-      options:
-        - label: I confirm I want to submit this request.
-          required: true

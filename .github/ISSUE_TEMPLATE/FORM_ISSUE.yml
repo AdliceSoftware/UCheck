@@ -45,11 +45,11 @@ body:
       required: false
   - type: dropdown
     id: reproductible
-    label: |
+    attributes:
+      label: |
+        Is the issue reproductible?
         Bugs and new features will be treated by priority and popularity.
         Make sure you vote with a :thumbsup: !
-    attributes:
-      label: Is the issue reproductible?
       options:
         - 'Yes'
         - 'No'

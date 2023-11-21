@@ -53,3 +53,8 @@ body:
       default: 0
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        Bugs and new features will be treated by priority and popularity.
+        Make sure you vote with a *thumb up* !

@@ -46,13 +46,20 @@ body:
   - type: dropdown
     id: reproductible
     attributes:
-      label: |
-        Is the issue reproductible?
-        Bugs and new features will be treated by priority and popularity.
-        Make sure you vote with a :thumbsup: !
+      label: Is the issue reproductible?
       options:
         - 'Yes'
         - 'No'
       default: 0
     validations:
       required: true
+  - type: checkboxes
+    id: vote
+    attributes:
+      label: Vote
+      description: Vote for your features
+      options:
+        - label: |
+          Bugs and new features will be treated by priority and popularity.
+          Make sure you vote with a :thumbsup: !
+          required: false

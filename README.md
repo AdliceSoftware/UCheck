@@ -9,7 +9,7 @@ UCheck Bug Tracker
 
 **Q : Why are the features/issues I submitted still not implemented ?**
 
-**A :** We are a small team, please be patient. 
+**A :** We do our best to prioritize bugs and features, if you think some ticket is useful please vote for it. 
 
  
 **Q : Where should I download UCheck beta ?**
